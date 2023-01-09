@@ -1,0 +1,44 @@
+body{
+    text-align: center;
+}
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card{
+    width: 250px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+    background-color: rgb(255, 222, 161);
+    padding: 20px;
+}
+
+.card-image > img{
+    width: 100%;
+}
+
+.demo-btn{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.demo-btn:hover{
+    background-color: rgb(52, 52, 52);
+}
