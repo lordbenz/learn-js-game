@@ -4,8 +4,27 @@
   box-sizing: border-box;
 }
 
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 5px black;
+    width: 500px;
+
+}
+
+.controls{
+    margin: 10px;
+    font-size: 32px;
+}
+
 #canvas-container {
-  background-color: blue;
+    box-shadow: inset 5px 5px 5px black;
+    border: 1px solid black;
 }
 
 #mandrake {
