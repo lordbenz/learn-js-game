@@ -15,7 +15,7 @@ window.addEventListener("load", function () {
       this.spriteHeight = 256;
       this.width = this.spriteWidth;
       this.height = this.spriteHeight;
-      this.scale = 1.5;
+      this.scale = 1;
 
       this.x = this.canvasWidth / 2 - (this.width * this.scale) / 2;
       this.y = this.canvasHeight / 2 - (this.height * this.scale) / 2;

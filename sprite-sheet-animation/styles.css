@@ -12,8 +12,8 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 5px 5px 5px black;
     width: 500px;
+
 
 }
 
@@ -23,10 +23,16 @@
 }
 
 #canvas-container {
-    box-shadow: inset 5px 5px 5px black;
-    border: 1px solid black;
+    border: 10px solid black;
+    background-image: url('./assets/mandrake.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #mandrake {
     display: none;
+}
+
+label, input{
+    cursor: pointer;
 }
