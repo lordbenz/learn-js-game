@@ -2,7 +2,13 @@ const projectList = [
   {
     gameKey: "sprite-sheet-animation",
     name: "Sprite Sheet Animation",
-    description: "A simple sprite sheet animation playground",
+    description: "A simple sprite sheet animation playground.",
+  },
+
+  {
+    gameKey: "rpg-turn-based-example",
+    name: "RPG Turn Based Example",
+    description: "A simple RPG turn based game example with world map and battle scene.",
   },
 ];
 
