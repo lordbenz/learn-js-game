@@ -10,6 +10,11 @@ const projectList = [
     name: "RPG Turn Based Example",
     description: "A simple RPG turn based game example with world map and battle scene.",
   },
+  {
+    gameKey: "phaser-basic-crossing-game",
+    name: "Phaser Basic Crossing Game",
+    description: "This crossing game is a simple example of how to use Phaser 3. It focuses on the basics of the framework not best practices.",
+  },
 ];
 
 function createDivCard(title, description, gameKey) {

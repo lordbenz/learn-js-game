@@ -1,5 +1,3 @@
-// const { Phaser } = require("./phaser");
-
 // create a new scene
 let gameScene = new Phaser.Scene("Game");
 
@@ -10,7 +8,7 @@ gameScene.init = function () {
 
   // enemy speed
   this.enemyMinSpeed = 1;
-  this.enemyMaxSpeed = 4;
+  this.enemyMaxSpeed = 3;
 
   // boundaries
   this.enemyMinY = 80;
